@@ -1,5 +1,5 @@
 ## https://kafka.apache.org/quickstart (Try Step1 and Step2)
-## https://www.conduktor.io/download/
+## https://www.conduktor.io/download/  (To visually understand Kafka internals)
 
 
 ## To start Zookeeper
