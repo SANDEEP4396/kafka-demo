@@ -1,0 +1,16 @@
+## https://kafka.apache.org/quickstart (Try Step1 and Step2)
+## https://www.conduktor.io/download/
+
+
+## To start Zookeeper
+bin/zookeeper-server-start.sh config/zookeeper.properties
+
+## To start Kafka
+bin/kafka-server-start.sh config/server.properties
+
+## To create topics
+bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic com-egen-bootcamp-
+bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 3 --topic com-egen-bootcamp-multiple-partitions-
+
+## To list topics
+bin/kafka-topics.sh --list --bootstrap-server localhost:9092
